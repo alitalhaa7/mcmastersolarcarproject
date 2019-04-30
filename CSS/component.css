@@ -1,0 +1,105 @@
+
+body,html{
+ width:100%;
+    height: 100%;
+}
+
+.grid {
+    width:100%;
+	margin: 0 auto;
+	list-style: none;
+}
+
+
+
+.grid figure {
+	margin: 0;
+	position: relative;
+    
+}
+
+.grid tr td figure img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(131,0,43);;
+	color: #ed4e6e;
+    
+}
+
+.grid figcaption h3 {
+    position: relative;
+	color: #fff;
+    font-size: 30px;
+        font-family:OpenExtra;
+    letter-spacing: 3px;
+}
+
+
+
+
+.cs-style-1 figcaption {
+	height: 70%;
+	width: 70%;
+	opacity: 0;
+	text-align: center;
+    
+    
+       top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+
+}
+
+
+
+
+
+
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+	opacity: 0.7;
+
+}
+
+.cs-style-1 figcaption h3 {
+    
+     top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+    
+}
+
+.cs-style-1 figcaption span {
+	display: block;
+}
+
+.cs-style-1 figcaption a {
+	margin-top: 30px;
+}
+
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}

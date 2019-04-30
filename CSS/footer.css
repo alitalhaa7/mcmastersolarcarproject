@@ -1,0 +1,35 @@
+#footer{
+    
+        background-color: rgb(131,0,43);
+height:300px;
+}
+
+#footer h1{
+ 
+    
+}
+#footer table{
+  
+    
+}
+
+#footer table tr td img{
+    width:100px;
+    
+}
+#contactinfo{
+margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}
+#contactinfotable{
+    width:50%;
+    height:300px;
+ margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-family:SourceLight;
+ 
+line-height: 25px;
+    
+}

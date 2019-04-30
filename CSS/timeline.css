@@ -1,0 +1,30 @@
+#timeline{
+height:100%;
+    width:100%;
+    background-color: white;
+    margin: 0;
+    color:black;
+    
+}
+#timeline h1{
+
+    
+}
+
+#timeline table{
+  width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    height:90%;
+    font-size:12px;
+}
+
+
+#timeline table tr{
+    text-align: left;
+    
+}
+#timeline table tr td{
+    vertical-align: text-top;
+    
+}

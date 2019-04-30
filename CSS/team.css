@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body, html {
+  height: 100%;
+    width:100%;
+    font-size: 100%;
+
+}
+
+#topheader{
+    text-align: center;
+ height:400px;
+    background-color: #FF3df3;
+    color:white;
+    
+    
+    
+    background-color:rgb(131,0,43);
+    
+
+}
+
+
+#heading{
+ color:#FFFFFF;
+ font-size:20px;
+    font-family:OpenExtra;
+    letter-spacing: 4px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    line-height: 30px;
+        margin-left: 50px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#teammain{
+background-color:white;
+    height: auto;
+
+    text-align: center;
+
+}
+
+
+
+
+#teammain table{
+    
+ margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    
+}
+
+.imagecells{
+    
+ width:270px;
+    height:270px;
+}
+
+#teammain table img{
+ height: 220px;   
+   border-radius: 100%; 
+}
+
+
+#navbar{
+ width: 100%;   
+}
+
+.links{
+    text-align: center;
+    width:20%;
+    font-family: OpenReg;
+}
+
+#logo{
+ width:20%;   
+    text-align: center;
+}
+
+
+.info{
+    width:400px;
+    
+}
+
+.info h1{
+ font-family: SourceReg;   
+color:rgb(131,0,43);
+    <!--    color:#444444;
+    -->
+}
+.info h2{
+ font-family:SourceLight; 
+color:rgb(131,0,43);
+    <!--color:#555555;
+    -->
+}
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: "AllerBD";
+src: url(../fonts/Aller_Bd.ttf);  
+}
+
+
+@font-face{
+    font-family: "Open";
+src: url(../fonts/OpenSans-Bold.ttf);  
+}
+@font-face{
+    font-family: "OpenExtra";
+src: url(../fonts/OpenSans-ExtraBold.ttf);  
+}
+@font-face{
+    font-family: "OpenReg";
+src: url(../fonts/OpenSans-Regular.ttf);  
+}
+
+@font-face{
+    font-family: "SourceReg";
+src: url(../fonts/SourceSansPro-Regular.otf);  
+}
+
+
+@font-face{
+    font-family: "SourceLight";
+src: url(../fonts/SourceSansPro-Light.otf);  
+}
+
+
+@font-face{
+    font-family: "SourceBold";
+src: url(../fonts/SourceSansPro-Bold.otf);  
+}
